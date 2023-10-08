@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className='main'>
-      <h1>화원이는 바보라는 것에 인정하시나요?</h1>
+      <h1>화원이는 바보라는 것에대해 동의하시나요?</h1>
       <div>
         <button style={{marginRight:'10px'}} onClick={()=>catClick('네')}>네</button>
         <button onClick={()=>catClick('아니요')}>아니요</button>
